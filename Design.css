@@ -1,0 +1,46 @@
+﻿*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+canvas 
+{
+    background-color: skyblue;
+    -webkit-transition: transform 1s;
+    -o-transition: -o-transform 1s;
+    -moz-transition: -moz-transform 1s;
+}
+
+canvas:hover
+{
+    width:102px;
+    height:98px;
+}
+
+#cvdiv
+{
+    margin-top:100px;
+    margin-left:600px;
+    margin-bottom:20px;
+}
+
+#ReloadBT 
+{
+    text-decoration-color: none;
+    margin-left: 600px;
+    color: beige;
+    font: 25px Comic Sans MS;
+}
+
+#ReloadBT:hover
+{
+    font-size:30px;
+}
